@@ -5,13 +5,13 @@ form.addEventListener("submit", function(event) {
 
     let ingressoSelecionado = "Não selecionado";
 
-if (document.getElementById("pista").checked) {
-    ingressoSelecionado = "Pista";
-} else if (document.getElementById("vip").checked) {
-    ingressoSelecionado = "VIP";
-} else if (document.getElementById("camarote").checked) {
-    ingressoSelecionado = "Camarote";
-}
+    if (document.getElementById("pista").checked) {
+        ingressoSelecionado = "Pista";
+    } else if (document.getElementById("vip").checked) {
+        ingressoSelecionado = "VIP";
+    } else if (document.getElementById("camarote").checked) {
+        ingressoSelecionado = "Camarote";
+    }
 
     const dados = {
         nome: document.getElementById("Nome").value,
@@ -20,8 +20,7 @@ if (document.getElementById("pista").checked) {
         ingresso: ingressoSelecionado
     };
 
+    console.log(dados);
     
-    console.log("Dados do Fã do Manoel Gomes:", dados);
-    
-    alert("Cadastro realizado com sucesso! Olha se você não me ama!");
+    form.reset();
 });
