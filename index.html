@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manoel Gomes Fest 2026</h1>
+    <br><br>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/2P_esm8cNgU?si=WyUIttelDuVFRyg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br><br>
+
+  <hr>
+
+    <h2>Programação</h2>
+    <table border="1">
+        <tr>
+            <th>Horário</th>
+            <th>Atração</th>
+        </tr>
+        <tr>
+            <td>20:00</td>
+            <td>Manoel Gomes</td>
+        </tr>
+    </table>
+
+    <hr>
+
+
+  <h1>Cadastro do usuario</h1>
+    <form id="Formcadastro">
+        <label for="">Nome: </label>
+        <input type="text" name="Nome" id="Nome"
+         placeholder= " insira seu Nome " required>
+        <br><br>
+
+        <label for="">Email: </label>
+        <input type="text" name="Email" id="Email"
+         placeholder= " insira seu Email " required>
+        <br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="Idade"
+        placeholder= " insira sua Idade " required>
+        <br><br>
+
+        <label for="Tel">Telefone: </label>
+        <input type="tel" name="telefone" id="Tel" placeholder="(00) 00000-0000">
+        <br><br>
+
+        <p>Tipo de Ingresso:</p>
+        <input type="radio" name="ingresso" id="pista" value="pista">
+        <label for="pista">Pista</label>
+        
+        <input type="radio" name="ingresso" id="vip" value="vip">
+        <label for="vip">VIP</label>
+        
+        <input type="radio" name="ingresso" id="camarote" value="camarote">
+        <label for="camarote">Camarote</label>
+        <br><br>
+
+        <input type="checkbox" name="avisos" id="avisos">
+        <label for="avisos">Receber atualizações por e-mail</label>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# Atividade---Cria-o-de-Projeto-no-GitHub
+Este é um projeto desenvolvido como atividade prática de desenvolvimento web. O site simula a página oficial de venda de ingressos e informações sobre o show do fenômeno Manoel Gomes.
